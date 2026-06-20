@@ -50,15 +50,13 @@ export default function HeroSection() {
       
       {/* Hero image */}
       <div className="absolute inset-0" style={{ zIndex: 1 }}>
-        <video
-  autoPlay
-  muted
-  loop
-  playsInline
-  className="absolute inset-0 w-full h-full object-cover"
->
-  <source src={content.heroVideo} type="video/mp4" />
-</video>
+        <img
+          src={content.heroImage}
+          alt="Hero"
+          className="w-full h-full object-cover opacity-40"
+          style={{ filter: 'brightness(0.6) contrast(1.1)' }}
+          loading="eager"
+        />
       </div>
       
       {/* Gradient overlay */}
