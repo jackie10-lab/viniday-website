@@ -15,14 +15,14 @@ export const content = {
   // =========================================================================
   // HERO SECTION
   // =========================================================================
-  heroVideo: "/videos/hero.mp4",
+  heroVideo: "https://res.cloudinary.com/ddt9knb2d/video/upload/hero_dkewrw.mp4",
 
   // =========================================================================
   // WELCOME SECTION
   // =========================================================================
   welcome: {
     title: "A Message For You",
-    video: "/videos/welcome.mp4",
+    video: "https://res.cloudinary.com/ddt9knb2d/video/upload/welcome_od7tpq.mp4",
     message: `Welcome to your special day, Vinisha. I wanted to create something just for you — a small corner of the internet that captures how much you mean to me.
 
 Every section of this website holds a piece of our story, a memory we share, or something I admire about you. I hope as you scroll through, you feel all the love and thought that went into every detail.
@@ -45,7 +45,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
       {
         date: "The First Picture I took",
         title: "When we met at AL seef",
-        description: "The first picture I took of you. It wasn’t the perfect photo, but it became a memory I wanted to keep.",
+        description: "The first picture I took of you. It wasn't the perfect photo, but it became a memory I wanted to keep.",
         image: "/images/memory-1.jpg"
       },
       {
@@ -58,7 +58,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
         date: "Your Laughs",
         title: "Your Smile Hooked Me",
         description: "Your laughter has always been contagious, and I hope you always have reasons to smile.",
-        video: "/videos/smile.mp4"
+        video: "https://res.cloudinary.com/ddt9knb2d/video/upload/smile_vmxn9w.mp4"
       },
       {
         date: "The Realization",
@@ -80,10 +80,10 @@ I didn't know it yet, but that moment would change everything. That moment was t
       description: "You posing for the pictures and me clicking it randomly. Somehow these small moments become the ones you remember."
     },
     {
-      video: "/videos/untold.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/untold_oidf65.mp4",
       date: "Untold",
       title: "Sangantlay fest",
-      description: "I remember how excited you were to go this concertYou were so excited for this day, and honestly it was fun seeing you enjoy every moment of it."
+      description: "I remember how excited you were to go this concert. You were so excited for this day, and honestly it was fun seeing you enjoy every moment of it."
     },
     {
       image: "/images/mall1.jpg",
@@ -92,19 +92,19 @@ I didn't know it yet, but that moment would change everything. That moment was t
       description: "Learning photography 101."
     },
     {
-      video: "/videos/birthday-last-year.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/birthday-last-year_fsu5qt.mp4",
       date: "Arcade 2",
       title: "Bike",
       description: "You wanted to try this bike ride, kale cute ne."
     },
     {
-      video: "/videos/untold1.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/untold1_jeqkdz.mp4",
       date: "Untold",
       title: "Concert Prep Mode 😂",
       description: "We jumped in the car with no destination and ended up finding the most beautiful hidden viewpoint."
     },
     {
-      video: "/videos/matcha.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/matcha_swxfvk.mp4",
       date: "Coffee time",
       title: "That's is cute",
       description: "And that's how the tim hortons set the foundation for the matcha."
@@ -116,10 +116,10 @@ I didn't know it yet, but that moment would change everything. That moment was t
       description: "The amount of pictures you made me take with that outfit and cotton candy, made me check my photography skills"
     },
     {
-      video: "/videos/untold2.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/untold2_vzofig.mp4",
       date: "IDK",
       title: "Cute moment",
-      description: "You and your brother were fully in the concert mood ."
+      description: "You and your brother were fully in the concert mood."
     },
     {
       image: "/images/mall3.jpg",
@@ -128,7 +128,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
       description: "Hold on! let me check your photography skills, give me the phone."
     },
     {
-      video: "/videos/arcade2.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/arcade2_hpyvtl.mp4",
       date: "Whack-a-mole",
       title: "Taking The Game Seriously",
       description: "Watching you go all in on this game was actually hilarious 😂 so competitive."
@@ -152,21 +152,21 @@ I didn't know it yet, but that moment would change everything. That moment was t
       description: "Still not sure if you came to have fun or to defeat every game in the building 😂."
     },
     {
-      video: "/videos/untold3.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/untold3_z0opud.mp4",
       date: "Untold",
       title: "Untold not to tell anyone",
       description: "Don't have pictures from the fest, So let's end with the video."
     },
-    
     {
       image: "/images/mall2.jpg",
       date: "End of the mall",
       title: "Cute",
       description: "Maka zaina, kale cuteeeeee."
     }
-    
   ],
-    // GALLERY ROW LABELS
+
+  // =========================================================================
+  // GALLERY ROW LABELS
   // =========================================================================
   galleryRowLabels: [
     "You With Matcha",
@@ -175,8 +175,9 @@ I didn't know it yet, but that moment would change everything. That moment was t
     "You with Foooooood",
     "You Trying on Cloths - Always Beautiful",
     "Extra Cute"
-    
   ],
+
+  // =========================================================================
   // GALLERY SECTION
   // =========================================================================
   gallery: [
@@ -194,7 +195,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
     },
     {
       image: "/images/m3.jpg",
-      date: "matcha and pose ",
+      date: "matcha and pose",
       title: "",
       description: "Add your own memory here."
     },
@@ -207,11 +208,11 @@ I didn't know it yet, but that moment would change everything. That moment was t
     {
       image: "/images/m5.jpg",
       date: "Matcha & Meow",
-      title: "",  
+      title: "",
       description: "Add your own memory here."
     },
     {
-      video: "/videos/c1.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/c1_yajsmp.mp4",
       date: "Damn those points to be redeemed",
       title: "",
       description: "Add your own memory here."
@@ -223,7 +224,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
       description: "Add your own memory here."
     },
     {
-      video: "/videos/c2.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/c2_qjowlq.mp4",
       date: "aaaaa kale smirk re",
       title: "",
       description: "Add your own memory here."
@@ -235,7 +236,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
       description: "Add your own memory here."
     },
     {
-      video: "/videos/c3.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/c3_lytrb3.mp4",
       date: "Nails women activated, Leave your phone come to mine",
       title: "",
       description: "Add your own memory here."
@@ -247,7 +248,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
       description: "Add your own memory here."
     },
     {
-      video: "/videos/s1.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/s1_akmzii.mp4",
       date: "Barca Mascot",
       title: "",
       description: "Add your own memory here."
@@ -259,7 +260,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
       description: "Add your own memory here."
     },
     {
-      video: "/videos/s2.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/s2_dtibfc.mp4",
       date: "Friday Mall check-ins",
       title: "",
       description: "Add your own memory here."
@@ -271,7 +272,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
       description: "Add your own memory here."
     },
     {
-      video: "/videos/f1.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/f1_tadtg9.mp4",
       date: "You wanted try this japanese, worth it",
       title: "",
       description: "Add your own memory here."
@@ -283,7 +284,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
       description: "Add your own memory here."
     },
     {
-      video: "/videos/f2.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/f2_ds7q7l.mp4",
       date: "You wanted to try cheesecake factory, hope you liked the suprise",
       title: "",
       description: "Add your own memory here."
@@ -295,7 +296,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
       description: "Add your own memory here."
     },
     {
-      video: "/videos/f3.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/f3_nsfbwz.mp4",
       date: "Food and outfit on point",
       title: "",
       description: "Add your own memory here."
@@ -307,7 +308,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
       description: "Add your own memory here."
     },
     {
-      video: "/videos/cl1.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/cl1_sqrkeg.mp4",
       date: "Beautiful, One of my fav",
       title: "",
       description: "Add your own memory here."
@@ -330,15 +331,14 @@ I didn't know it yet, but that moment would change everything. That moment was t
       title: "",
       description: "Add your own memory here."
     },
-    
-       {
+    {
       image: "/images/ex1.jpg",
       date: "Let me come in",
       title: "",
       description: "Add your own memory here."
     },
     {
-      video: "/videos/ex1.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/ex1_hon0ny.mp4",
       date: "Shakespare quotes - This is ART",
       title: "",
       description: "Add your own memory here."
@@ -350,7 +350,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
       description: "Add your own memory here."
     },
     {
-      video: "/videos/ex3.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/ex3_b5fhzk.mp4",
       date: "Listen with audio, soooo cute voice",
       title: "",
       description: "Add your own memory here."
@@ -360,10 +360,9 @@ I didn't know it yet, but that moment would change everything. That moment was t
       date: "This Hairstyle i was talking about",
       title: "",
       description: "Add your own memory here."
-    
     }
-    
   ],
+
   // =========================================================================
   // THINGS I ADMIRE ABOUT YOU
   // =========================================================================
@@ -372,7 +371,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
       icon: "heart",
       title: "Your Disappointment Face",
       description: "The way you care for everyone around you never ceases to amaze me. You have the biggest heart of anyone I know, and you give so freely without expecting anything in return. Your kindness is a light in this world.",
-      video: "/videos/dis.mp4"
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/dis_fnwcxo.mp4"
     },
     {
       icon: "smile",
@@ -384,7 +383,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
       icon: "laugh",
       title: "Your Sense of Humor",
       description: "You make me laugh like no one else can. Your wit, your timing, your ability to find joy in the smallest things — it makes every moment with you an adventure.",
-      video: "/videos/laugh.mp4"
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/laugh_gaep65.mp4"
     },
     {
       icon: "star",
@@ -414,7 +413,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
       icon: "user",
       title: "Your Personality",
       description: "Every little quirk, every habit, every unique thing about you — I adore it all. You are perfectly, wonderfully, beautifully you. And I wouldn't change a thing.",
-      video: "/videos/per.mp4"
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/per_iunrjj.mp4"
     }
   ],
 
@@ -426,31 +425,31 @@ I didn't know it yet, but that moment would change everything. That moment was t
       thumbnail: "/thumbnails/video-thumb-1.jpg",
       title: "The Person You Are",
       description: "A collection of little moments that show your smile, your excitement, your energy, and everything that makes you, you",
-      video: "/videos/bday1.mp4"
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/bday1_jnnt2l.mp4"
     },
     {
       thumbnail: "/thumbnails/video-thumb-2.jpg",
       title: "A Change of Plans",
-      description: "Jumeirah didn’t happen, but somehow the mall, matcha, and random moments made it a day worth remembering.",
-      video: "/videos/bday3.mp4"
+      description: "Jumeirah didn't happen, but somehow the mall, matcha, and random moments made it a day worth remembering.",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/bday3.mp4"
     },
     {
       thumbnail: "/thumbnails/video-thumb-3.jpg",
       title: "The Main Character Moment",
-      description: "I told you I was going to make this edit with this part of the song, and you kept asking “where is it?” 😂 So here it is — finally captured..",
-      video: "/videos/bday5.mp4"
+      description: "I told you I was going to make this edit with this part of the song, and you kept asking where is it? So here it is — finally captured.",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/bday5_wux5qu.mp4"
     },
     {
       thumbnail: "/thumbnails/video-thumb-4.jpg",
       title: "Sadie Sink",
-      description: "My Stranger Things Star Vinishaaaaaaaa .",
-      video: "/videos/bday6.mp4"
+      description: "My Stranger Things Star Vinishaaaaaaaa.",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/bday6_gm0x6c.mp4"
     },
     {
       thumbnail: "/thumbnails/video-thumb-5.jpg",
-      title: "The Dreamy Princess Moment ",
+      title: "The Dreamy Princess Moment",
       description: "You definitely knew the outfit was doing its job. Had to capture this one.",
-      video: "/videos/bday4.mp4"
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/bday4_ls37cs.mp4"
     }
   ],
 
@@ -461,37 +460,43 @@ I didn't know it yet, but that moment would change everything. That moment was t
     spotifyUrl: "",
     songs: [
       {
-        coverVideo: "/videos/music2.mp4",
+        cover: "/images/song-cover-2.jpg",
+        coverVideo: "https://res.cloudinary.com/ddt9knb2d/video/upload/music2_xlt33q.mp4",
         title: "Your cute little effortless dance",
         description: "This song and that outfit.Damnnn",
         audio: "/music/music2.mp3"
       },
       {
-        coverVideo: "/videos/music1.mp4",
+        cover: "/images/song-cover-1.jpg",
+        coverVideo: "https://res.cloudinary.com/ddt9knb2d/video/upload/music1_anjv4m.mp4",
         title: "Our Summer Anthem",
         description: "the song you always send me videos to.",
         audio: "/music/music1.mp3"
       },
       {
-        coverVideo: "/videos/music3.mp4",
+        cover: "/images/song-cover-3.jpg",
+        coverVideo: "https://res.cloudinary.com/ddt9knb2d/video/upload/music3_fqmfta.mp4",
         title: "Butterflies",
         description: "Your the real butterfly.",
         audio: "/music/music3.mp3"
       },
       {
-        coverVideo: "/videos/music4.mp4",
+        cover: "/images/song-cover-4.jpg",
+        coverVideo: "https://res.cloudinary.com/ddt9knb2d/video/upload/music4_cc2nwe.mp4",
         title: "Vibes",
         description: "stateside from thokkut,sorrryyy haha.",
         audio: "/music/music4.mp3"
       },
       {
-        coverVideo: "/videos/music5.mp4",
+        cover: "/images/song-cover-5.jpg",
+        coverVideo: "https://res.cloudinary.com/ddt9knb2d/video/upload/music5_drndxq.mp4",
         title: "Happy Memories",
         description: "Every time this comes on, I think of you smiling.",
         audio: "/music/music5.mp3"
       },
       {
-        coverVideo: "/videos/music6.mp4",
+        cover: "/images/song-cover-6.jpg",
+        coverVideo: "https://res.cloudinary.com/ddt9knb2d/video/upload/music6_wjhptn.mp4",
         title: "Your Birthday Song",
         description: "A song that captures exactly how I feel about you.",
         audio: "/music/music6.mp3"
@@ -515,7 +520,7 @@ I hope this moment lasts forever. Remember this feeling — you deserve every ou
 
 Keep shining, beautiful. The world is better with your smile in it.`,
       images: ["/images/openwhen-happy.jpg"],
-      video: "/videos/videoh.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/videoh_pv5nm6.mp4",
       youtubeUrl: "",
       voiceNote: ""
     },
@@ -525,13 +530,13 @@ Keep shining, beautiful. The world is better with your smile in it.`,
       subtitle: "I'm here for you",
       icon: "heart",
       quote: "You are stronger than you know.",
-      message: `If things feel heavy, and that's okay. You don't have to carry it all alone.
+      message: `If things feel heavy, that's okay. You don't have to carry it all alone.
 
 I'm here. Whether you need someone to talk to, someone to sit with you in silence, or someone to distract you. I'm here.
 
-This feeling is temporary. You are permanent. You are loved. You are enough, I'm proud of you.`,
+This feeling is temporary. You are permanent. You are loved. You are enough. I'm proud of you.`,
       images: ["/images/sad.jpg"],
-      video: "/videos/sad.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/sad_pow7lm.mp4",
       youtubeUrl: "",
       voiceNote: "/music/voicenote-1.mp3"
     },
@@ -540,14 +545,14 @@ This feeling is temporary. You are permanent. You are loved. You are enough, I'm
       title: "Open When You Need Motivation",
       subtitle: "You've got this",
       icon: "zap",
-      quote: "I believe in you.You've done it before, and you'll do it again.",
+      quote: "I believe in you. You've done it before, and you'll do it again.",
       message: `Look at how far you've come. Every challenge you've faced, you've overcome. Every obstacle, you've conquered.
 
 You are capable of incredible things. Don't let doubt steal your magic. Take a deep breath, square your shoulders, and show the world what you're made of.
 
 I believe in you. Always.`,
       images: ["/images/mot.jpg"],
-      video: "/videos/mot.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/mot_faefb1.mp4",
       youtubeUrl: "",
       voiceNote: ""
     },
@@ -561,9 +566,9 @@ I believe in you. Always.`,
 
 Pick up the phone. Send that message. Plan that visit. The people who love you are just a call away.
 
-And remember — You go me too. Always here, always rooting for you.`,
+And remember — You got me too. Always here, always rooting for you.`,
       images: ["/images/friends.jpg"],
-      video: "/videos/friends.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/friends_zbayyu.mp4",
       youtubeUrl: "",
       voiceNote: ""
     },
@@ -579,7 +584,7 @@ Watch your favorite show. Eat your favorite snack. Dance in your room. Do whatev
 
 And if none of that works... just know that someone out there is thinking of you right now and smiling because you exist.`,
       images: ["/images/smileus.jpg"],
-      video: "/videos/smileus.mp4",
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/smileus_budqdk.mp4",
       youtubeUrl: "",
       voiceNote: ""
     }
@@ -594,11 +599,11 @@ And if none of that works... just know that someone out there is thinking of you
 
 You are the most incredible person I've ever known. Every day with you is a gift I don't take for granted. I love the way you think, the way you feel, the way you love.
 
-Thank you for being you. Thank you for all the laughs, the random moments, and the memories along the way. I hope this year brings you happiness, success, and everything you deserve. Stay the same amazing person you are. Happy Birthday ❤️.
+Thank you for being you. Thank you for all the laughs, the random moments, and the memories along the way. I hope this year brings you happiness, success, and everything you deserve. Stay the same amazing person you are. Happy Birthday.
 
-nah. Happy Vinishaaaaa day.`,
+Happy Vinishaaaaa day.`,
     images: ["/images/secret-reveal.jpg"],
-    video: "/videos/secret-video.mp4"
+    video: "https://res.cloudinary.com/ddt9knb2d/video/upload/arcade1_kwfngs.mp4"
   },
 
   // =========================================================================
@@ -615,7 +620,7 @@ You've made it through another incredible year. You've grown, you've learned, yo
 Here's to another year of adventures, laughter, and memories. I can't wait to see what this year brings for you.
 
 Happy Birthday, my Darlin. You mean everything to me.`,
-    video: "/videos/bday.mp4"
+    video: "https://res.cloudinary.com/ddt9knb2d/video/upload/bday_ifvtgo.mp4"
   },
 
   // =========================================================================
@@ -625,7 +630,7 @@ Happy Birthday, my Darlin. You mean everything to me.`,
     title: "My Words For You",
     text: `My Dearest Vinisha,
 
-How was it re?? Did you like it???.
+How was it re? Did you like it?
 
 For you,`,
     signature: "Jackson"
