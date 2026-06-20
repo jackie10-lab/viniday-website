@@ -67,7 +67,7 @@ export default function WelcomeSection() {
           playsInline
            className="w-full h-full object-cover"
          >
-  <source src="/videos/welcome.mp4" type="video/mp4" />
+  <source src={content.welcome.video} type="video/mp4" />
 </video>
           {/* Subtle gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-obsidian/30 to-transparent" />
