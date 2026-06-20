@@ -431,7 +431,7 @@ I didn't know it yet, but that moment would change everything. That moment was t
       thumbnail: "/thumbnails/video-thumb-2.jpg",
       title: "A Change of Plans",
       description: "Jumeirah didn't happen, but somehow the mall, matcha, and random moments made it a day worth remembering.",
-      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/bday3.mp4"
+      video: "https://res.cloudinary.com/ddt9knb2d/video/upload/bday3_t5m6wu.mp4"
     },
     {
       thumbnail: "/thumbnails/video-thumb-3.jpg",
