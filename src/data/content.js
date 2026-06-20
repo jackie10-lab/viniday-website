@@ -15,14 +15,14 @@ export const content = {
   // =========================================================================
   // HERO SECTION
   // =========================================================================
-  heroVideo: "https://res.cloudinary.com/ddt9knb2d/video/upload/hero_dkewrw.mp4",
+  heroVideo: "https://res.cloudinary.com/ddt9knb2d/video/upload/v1781948895/hero_dkewrw.mp4",
 
   // =========================================================================
   // WELCOME SECTION
   // =========================================================================
   welcome: {
     title: "A Message For You",
-    video: "https://res.cloudinary.com/ddt9knb2d/video/upload/welcome_od7tpq.mp4",
+    video: "https://res.cloudinary.com/ddt9knb2d/video/upload/v1781949047/welcome_od7tpq.mp4",
     message: `Welcome to your special day, Vinisha. I wanted to create something just for you — a small corner of the internet that captures how much you mean to me.
 
 Every section of this website holds a piece of our story, a memory we share, or something I admire about you. I hope as you scroll through, you feel all the love and thought that went into every detail.
