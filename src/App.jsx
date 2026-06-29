@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import LoadingScreen from '@/components/LoadingScreen';
 import Navigation from '@/components/Navigation';
 import MouseGlow from '@/components/MouseGlow';
@@ -40,6 +41,9 @@ function App() {
 
   return (
     <div className="relative min-h-[100dvh] bg-obsidian text-champagne overflow-x-hidden film-grain">
+      {/* Vercel Analytics */}
+      <Analytics />
+      
       {/* Loading Screen */}
       {isLoading && <LoadingScreen onComplete={handleLoadingComplete} />}
       
